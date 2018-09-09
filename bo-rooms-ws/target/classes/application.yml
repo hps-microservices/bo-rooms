@@ -1,0 +1,16 @@
+bo-rooms:
+  display-name: ${spring.application.name}
+
+info:
+  name: ${spring.application.name}
+#  version: 1.0
+
+server:
+  port: 7903
+
+spring:
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: ${spring.application.name}
